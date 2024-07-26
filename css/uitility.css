@@ -1,0 +1,88 @@
+.flex{
+    
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center ;
+}
+.grid{
+    display: grid;
+}
+.fixed{
+    position: fixed;
+}
+.one{
+    grid-area: "three";
+}
+.one1{
+    grid-area: "fifth";
+}
+.one2{
+    grid-area: "one2";
+}
+.sticky{
+    position: sticky;
+}
+.left{
+    text-align: left;
+}
+.font{
+    font-weight: 200;
+    font-size: 15px;
+}
+.font1{
+    font-weight: 100;
+    font-size: 13px;
+}
+.font3{
+    
+    font-size: 15px;
+}
+.font4{
+  
+    font-weight: bold;
+    font-size: 13px;
+}
+.grey{
+    color: gray;
+}
+.column{
+    flex-direction: column;
+}
+.hover:hover{
+    color: white;
+    transition: ease-in;
+    transition-duration: 1s;
+}
+.hover2:hover{
+    background-color: rgb(240, 238, 236);
+    padding: 16px 22px;
+    transition: ease-out;
+    /* transition-duration: 1s; */
+}
+.hover3:hover{
+    background-color: rgb(240, 238, 236);
+    padding: 2px;
+    transition: ease-out;
+    /* transition-duration: 1s; */
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.hover4:hover{
+    /* display: block; */
+    transition: ease-in;
+    transition-duration: 1s;
+}
+.invert{
+    filter: invert();
+}
+.cursor{
+    cursor: pointer;
+}
+.gap{
+    gap: 5px;
+}
